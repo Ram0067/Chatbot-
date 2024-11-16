@@ -5,7 +5,7 @@ import base64
 import os
 
 # Configure the Generative AI
-GOOGLE_API_KEY = "AIzaSyACkAAmnmsBSc6GmPN-LuDSU7hK-vaqUpE"  # Enclosed in quotes to make it a string
+GOOGLE_API_KEY = "YOUR_API_KEY"  # Enclosed in quotes to make it a string
 api_key = os.getenv("GOOGLE_API_KEY", GOOGLE_API_KEY)  # Use environment variable or fallback to this key
 
 ai.configure(api_key=api_key)
